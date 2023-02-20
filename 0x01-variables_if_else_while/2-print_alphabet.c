@@ -1,20 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Prints the alphabet
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char al;
+	char a;
 	
-	for (al = 'a'; al <= 'z'; al++)
-		putchar(al);
-		putchar('\n');
+	for (a = 'a'; a <= 'z'; a++)
+	putchar(a);
+	putchar('\n');
 
 	return 0;
 }
