@@ -8,7 +8,7 @@
  * Return: Depends on condition
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	int value;
 
