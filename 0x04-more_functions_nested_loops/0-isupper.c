@@ -3,7 +3,7 @@
 /**
  * _isupper - in Main
  * Description - Checks for uppercase character
- * @param c - an integer arguement/parameter
+ * @c: an integer arguement/parameter
  *
  * Return: 1 or 0 based on whether condition is met
  */
