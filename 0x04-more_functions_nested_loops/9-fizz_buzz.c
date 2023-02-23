@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -29,6 +30,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
+	printf("Buzz\n");
+
 	return (0);
 }
