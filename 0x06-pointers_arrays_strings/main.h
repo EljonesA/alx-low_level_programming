@@ -9,3 +9,4 @@ char *cap_string(char *);
 char *cap_string(char *);
 int check_separators(char c);
 char *leet(char *str);
+char *rot13(char *s);
