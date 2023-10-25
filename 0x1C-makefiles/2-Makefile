@@ -1,22 +1,12 @@
 # variables
 CC = gcc
 SRC = main.c school.c
-OBJ = main.o school.o
+OBJ = $(SRC:.c = .o)
 NAME = school
 
 # rule to build the executable
-all: $(NAME)
-
-# build executable using object files
-$(NAME): $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
-
-# COMPILE SRC FILES TO OBJECT FILES
-main.o: main.c
-	$(CC) -c main.c -o main.o
-
-school.0: school.c
-	$(CC) -c school.c -o school.o
+all: $(OBJ)
+	$(CC) $(OBJ) -O $(NAME)
 
 clean:
 	rm -f $(obj) $(NAME)
