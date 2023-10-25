@@ -2,7 +2,7 @@ all: school # rule to buid the executable
 
 # build school using school.o
 school: $(wildcard *.c)
-	gcc -Wall -o school $^
+	gcc main.c school.c -o school
 
 clean: # clean generated files
 	rm -f school.o school
